@@ -1,8 +1,11 @@
-# Ne pas versionner les données sensibles
-data/
-output/
+# Ne pas versionner les fichiers de données
+data/*
+!data/.gitkeep
 
-# Ne pas versionner les fichiers Excel
+output/*
+!output/.gitkeep
+
+# Fichiers Excel
 *.xlsx
 *.csv
 

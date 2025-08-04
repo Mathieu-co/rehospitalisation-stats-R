@@ -5,9 +5,13 @@ data/*
 output/*
 !output/.gitkeep
 
+Rapport/*
+!Rapport/.gitkeep
+
 # Fichiers Excel
 *.xlsx
 *.csv
+*.docx
 
 # Fichiers temporaires
 .ipynb_checkpoints/
